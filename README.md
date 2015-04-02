@@ -3,9 +3,9 @@ Dashboard widget with foosball table state
 
 ## Requirements
 
-Installed Dashboard app. 
-Installed foosballProxy module in Dashboard app 
-Installed foosballTableApp in your foosball table. 
++ Installed Dashboard app. 
++ Installed foosballProxy module in Dashboard app. 
++ Installed foosballTableApp in your foosball table. 
 
 ## How to install 
 
