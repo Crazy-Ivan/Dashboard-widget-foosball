@@ -1,14 +1,14 @@
 <div class="foosball-table">
-    <p class="state" ng-class="{occupied: options.data.isOccupied}">
-        <span ng-show="options.data.isOccupied">occupied</span>
-        <span ng-hide="options.data.isOccupied">available</span>
+    <p class="state" data-ng-class="{occupied: widget.data.isOccupied}">
+        <span data-ng-show="widget.data.isOccupied">occupied</span>
+        <span data-ng-hide="widget.data.isOccupied">available</span>
     </p>
     <div class="small-points">
-        {{ options.data.game.teamOne.smallPoints }} : {{ options.data.game.teamTwo.smallPoints }}
+        {{ widget.data.game.teamOne.smallPoints }} : {{ widget.data.game.teamTwo.smallPoints }}
     </div>
     <div class="big-points">
-        <p class="pull-left"> {{options.data.game.teamOne.bigPoints}}</p>
-        <p class="pull-right"> {{options.data.game.teamTwo.bigPoints}}</p>
+        <p class="pull-left"> {{widget.data.game.teamOne.bigPoints}}</p>
+        <p class="pull-right"> {{widget.data.game.teamTwo.bigPoints}}</p>
     </div>
     <p class="footer">FOOSBALL TABLE</p>
 </div>
